@@ -49,7 +49,7 @@ export default function Services() {
               <h3 className="text-xl font-bold text-slate-800 mb-3">{offer.title}</h3>
               <p className="text-slate-600 flex-grow mb-6 leading-relaxed">{offer.description}</p>
               <a
-                href="mailto:hi@estie.net"
+                href="/contact"
                 className="block text-center font-semibold py-3 px-4 rounded-lg transition-all duration-200 bg-teal-500 hover:bg-teal-400 text-white"
               >
                 {offer.cta}

@@ -1,6 +1,9 @@
 export default function FinalCTA() {
   return (
-    <section className="bg-teal-500 text-white py-24 px-6">
+    <section
+      className="text-white py-24 px-6 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "linear-gradient(to bottom, rgba(20,184,166,0.85), rgba(20,184,166,0.8)), url('/backgrounds/cta-bg.png')" }}
+    >
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           Ready to get organized?
@@ -9,17 +12,11 @@ export default function FinalCTA() {
           Let&apos;s talk about what would actually help your business.
         </p>
         <a
-          href="mailto:hi@estie.net"
+          href="/contact"
           className="inline-block bg-white text-teal-600 hover:bg-teal-50 hover:scale-105 font-bold text-lg px-12 py-4 rounded-lg transition-all duration-200 shadow-lg"
         >
           Let&apos;s Talk
         </a>
-        <p className="mt-10 text-teal-100">
-          Questions?{' '}
-          <a href="mailto:hi@estie.net" className="underline hover:text-white transition-colors">
-            hi@estie.net
-          </a>
-        </p>
       </div>
     </section>
   );
