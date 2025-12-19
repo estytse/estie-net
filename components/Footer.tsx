@@ -9,7 +9,7 @@ export default function Footer() {
               estie<span className="text-teal-400">.</span>net
             </a>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-              AI assistants for business owners who are great at what they do but drowning in admin. Custom to you. You own everything.
+              Custom AI assistants for business owners who are great at what they do but drowning in admin. You own everything.
             </p>
             <a
               href="https://linkedin.com/in/YOUR-PROFILE"
