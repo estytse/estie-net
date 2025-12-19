@@ -48,6 +48,9 @@ export default function Contact() {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Honeypot field for spam protection */}
+            <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">
                 Name
