@@ -5,12 +5,26 @@ export default function Header() {
         <a href="/" className="flex items-center text-white font-semibold text-xl tracking-tight">
           estie<span className="text-teal-400">.</span>net
         </a>
-        <a
-          href="/contact"
-          className="text-white hover:text-teal-400 font-medium transition-colors"
-        >
-          Contact
-        </a>
+        <nav className="flex items-center gap-8">
+          <a
+            href="/#services"
+            className="text-slate-300 hover:text-white font-medium transition-colors"
+          >
+            Services
+          </a>
+          <a
+            href="/#why"
+            className="text-slate-300 hover:text-white font-medium transition-colors"
+          >
+            Why This Works
+          </a>
+          <a
+            href="/contact"
+            className="text-white hover:text-teal-400 font-medium transition-colors"
+          >
+            Contact
+          </a>
+        </nav>
       </div>
     </header>
   );

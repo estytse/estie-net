@@ -39,7 +39,7 @@ export default function Contact() {
           Get in Touch
         </h2>
         <p className="text-slate-600 text-center mb-10">
-          Tell me a bit about what you need. I&apos;ll get back to you within a day.
+          Tell me a bit about what you need.
         </p>
 
         {status === 'sent' ? (

@@ -24,6 +24,7 @@ const differentiators = [
 export default function WhyDifferent() {
   return (
     <section
+      id="why"
       className="text-white py-24 px-6 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "linear-gradient(to bottom, rgba(30,41,59,0.7), rgba(30,41,59,0.65)), url('/backgrounds/trust-bg.png')" }}
     >

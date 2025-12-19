@@ -29,7 +29,7 @@ const offers = [
 
 export default function Services() {
   return (
-    <section className="bg-white py-20 px-6">
+    <section id="services" className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <p className="text-sm font-semibold text-teal-500 uppercase tracking-widest text-center mb-3">
           Ways We Can Work Together
