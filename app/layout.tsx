@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Estie | Voice-First Automation for Contractors",
-  description: "Track jobs, payments, and schedules by voice. No apps, no typing. Built for contractors who hate texting.",
+  title: "estie.net | AI Assistants for Small Business",
+  description: "An AI assistant that knows how you work. For business owners who are great at what they do but drowning in admin.",
 };
 
 export default function RootLayout({

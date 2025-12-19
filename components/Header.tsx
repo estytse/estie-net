@@ -13,19 +13,13 @@ export default function Header() {
             Home
           </a>
           <a
-            href="/#services"
+            href="/#how-we-work"
             className="text-slate-300 hover:text-white font-medium transition-colors"
           >
-            Services
+            How We Work
           </a>
           <a
-            href="/#why"
-            className="text-slate-300 hover:text-white font-medium transition-colors"
-          >
-            Why This Works
-          </a>
-          <a
-            href="/examples"
+            href="/#examples"
             className="text-slate-300 hover:text-white font-medium transition-colors"
           >
             Examples

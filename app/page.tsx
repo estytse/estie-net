@@ -1,8 +1,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import HowItWorks from '@/components/HowItWorks';
-import Services from '@/components/Services';
-import WhyDifferent from '@/components/WhyDifferent';
+import HowWeWork from '@/components/HowWeWork';
+import Projects from '@/components/Projects';
 import TechStack from '@/components/TechStack';
 import FinalCTA from '@/components/FinalCTA';
 
@@ -11,9 +10,8 @@ export default function Home() {
     <main>
       <Header />
       <Hero />
-      <HowItWorks />
-      <Services />
-      <WhyDifferent />
+      <HowWeWork />
+      <Projects />
       <TechStack />
       <FinalCTA />
     </main>

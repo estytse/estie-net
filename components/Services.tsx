@@ -5,7 +5,7 @@ const offers = [
     icon: LightBulbIcon,
     title: 'Show Me',
     description: 'What could this look like for my business?',
-    cta: 'Show Me',
+    cta: 'Get Started',
   },
   {
     icon: SparklesIcon,
