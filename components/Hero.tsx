@@ -6,10 +6,10 @@ export default function Hero() {
     >
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight tracking-tight mb-8">
-          Your appointments, payments, and clients — finally organized.
+          An AI assistant that knows how you work.
         </h1>
         <p className="text-xl md:text-2xl text-slate-300 font-light max-w-2xl mx-auto">
-          No apps to learn. No software to manage. Just a system that fits how you already work.
+          For business owners who are great at what they do but drowning in admin.
         </p>
       </div>
     </section>

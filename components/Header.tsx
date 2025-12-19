@@ -7,6 +7,12 @@ export default function Header() {
         </a>
         <nav className="flex items-center gap-8">
           <a
+            href="/"
+            className="text-slate-300 hover:text-white font-medium transition-colors"
+          >
+            Home
+          </a>
+          <a
             href="/#services"
             className="text-slate-300 hover:text-white font-medium transition-colors"
           >
@@ -19,8 +25,14 @@ export default function Header() {
             Why This Works
           </a>
           <a
+            href="/examples"
+            className="text-slate-300 hover:text-white font-medium transition-colors"
+          >
+            Examples
+          </a>
+          <a
             href="/contact"
-            className="text-white hover:text-teal-400 font-medium transition-colors"
+            className="text-teal-400 hover:text-teal-300 font-medium transition-colors"
           >
             Contact
           </a>
