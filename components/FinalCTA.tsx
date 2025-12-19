@@ -9,7 +9,7 @@ export default function FinalCTA() {
           Ready to get organized?
         </h2>
         <p className="text-xl mb-12 text-teal-100">
-          Let&apos;s talk about what would actually help your business.
+          Let&apos;s talk about what will actually help your business.
         </p>
         <a
           href="/contact"

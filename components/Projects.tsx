@@ -35,7 +35,7 @@ export default function Projects() {
           See It In Action
         </h2>
         <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
-          Real problems, real solutions. Each system is built around how the person actually works.
+          Each assistant is built around how the person actually works.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -46,9 +46,7 @@ export default function Projects() {
               className="group bg-white/5 border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:border-teal-500/50 transition-all duration-200"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-teal-500/20">
-                  <project.icon className="w-5 h-5 text-teal-400" />
-                </div>
+                <project.icon className="w-7 h-7 text-teal-400 drop-shadow-[0_0_12px_rgba(45,212,191,0.8)] drop-shadow-[0_0_24px_rgba(45,212,191,0.4)]" />
                 <span className="text-teal-400 text-sm font-medium">{project.category}</span>
               </div>
               <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-teal-300 transition-colors">

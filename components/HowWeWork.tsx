@@ -4,20 +4,20 @@ const stages = [
   {
     icon: MagnifyingGlassIcon,
     title: 'Explore',
-    what: 'We map how you actually work — your tools, your habits, your pain points.',
-    why: 'Custom to you, not templates.',
+    what: 'We map how you actually work: your tools, your habits, your pain points.',
+    why: 'Custom to you.',
   },
   {
     icon: WrenchScrewdriverIcon,
     title: 'Build',
-    what: 'We set it up on your accounts. Your phone number, your calendar, your data.',
+    what: 'We set it up on your accounts and under your control.',
     why: 'You own everything.',
   },
   {
     icon: LifebuoyIcon,
     title: 'Support',
     what: 'You call when something breaks or when you want changes.',
-    why: 'No monthly fees to us.',
+    why: 'On your terms.',
   },
 ];
 
