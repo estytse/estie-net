@@ -55,9 +55,12 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-slate-800 pt-6">
+        <div className="border-t border-slate-800 pt-6 flex flex-col md:flex-row md:justify-between gap-2">
           <p className="text-slate-500 text-sm">
             © 2025 estie.net
+          </p>
+          <p className="text-slate-500 text-sm">
+            Lakewood, NJ
           </p>
         </div>
       </div>
